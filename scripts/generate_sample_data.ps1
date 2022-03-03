@@ -1,7 +1,7 @@
 ﻿$root = [System.IO.Path]::GetDirectoryName($myInvocation.MyCommand.Definition);
 
-$path_data = $root + "\bin\publish\data.txt";
-$path_aliases = $root + "\bin\publish\aliases.txt"; 
+$path_data = $root + "\..\bin\publish\data.txt";
+$path_aliases = $root + "\..\bin\publish\aliases.txt"; 
 
 if(![System.IO.File]::Exists($path_data))
 {
