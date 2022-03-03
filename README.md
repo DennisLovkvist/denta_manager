@@ -6,6 +6,10 @@ Language: C#
 
 Dependencies: .NET Core 5.0
 
+## Future development
+* Visual changes on how the tree is drawn.
+* Ability to change key-mappings
+
 ## Installation
 ### Build
 ```
@@ -29,7 +33,9 @@ In Powershell as module
 ```
 $ dm
 ```
-## data.txt
+
+## Configuration
+### data.txt
 The file data.txt contains the information used to create the endpoints and the tree where they are located. 
 Each line is semi-colon seperated and holds the endpoints full path, name, team viwer id, ip address, password and alias. The tree is constructed automatically.
 If two or more endpoints are added and they share the same path, no duplicate branches are created. 
@@ -40,10 +46,20 @@ Example:
 
 ![Alt text](screenshots/readme_img_0.png?raw=true "Screenshot")
 
-## aliases.txt
+### aliases.txt
 This file is used to create aliases for the nodes in the tree. Appending "root/Sample Store Chain 0/Sample Store 1;store1" to the file allows one to find Sample Store 1 by the alias store1. This is done by hitting the spacebar, writing store1 and pressing enter.
 
 ![Alt text](screenshots/readme_img_1.png?raw=true "Screenshot")
 ![Alt text](screenshots/readme_img_2.png?raw=true "Screenshot")
 
+### config.txt
+This file is used to change where the program is looking for the different text files, path to team viewer and remote desktop as well ass a few other minor settings.
+
+## Controls
+* Navigate up tree: A
+* Navigate down tree: D
+* Navigate up current branch: W
+* Navigate down current branch: S
+* Enter command mode: Spacebar
+* Connect to endpoint: Enter
 
