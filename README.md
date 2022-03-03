@@ -6,9 +6,15 @@ Language: C#
 
 Dependencies: .NET Core 5.0
 
+## About
+When working a servicedesk job I was looking for a replacement to Team Viewer Manager.
+Me and some of my colleagues wanted something faster and more lightweight that could run within the terminal (powershell).
+
+
 ## Future development
 * Visual changes on how the tree is drawn.
-* Ability to change key-mappings
+* Ability to change key-mappings.
+* Fix "rendering" when window is resized.
 
 ## Installation
 ### Build
