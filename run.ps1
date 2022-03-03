@@ -1,0 +1,1 @@
+Start-Process -FilePath "../denta_manager/bin/publish/denta_manager.exe" -WorkingDirectory "../denta_manager/bin/publish/"

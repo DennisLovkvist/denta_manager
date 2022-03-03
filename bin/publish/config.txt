@@ -1,0 +1,9 @@
+src_mode=file
+path_source_data=data.txt
+path_team_viewer=C:\Program Files (x86)\TeamViewer\TeamViewer.exe
+path_remote_desktop=%SystemRoot%\system32\mstsc.exe
+aliases_path=aliases.txt
+descriptions_path=descriptions.txt
+#Black,DarkBlue,DarkGreen,DarkCyan,DarkRed,DarkMagenta,DarkYellow,Gray,DarkGray,Blue,Green,Cyan,Red,Magenta,Yellow,White
+color_base=Gray
+color_highlight=DarkCyan
