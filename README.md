@@ -43,6 +43,7 @@ Example:
 ## aliases.txt
 This file is used to create aliases for the nodes in the tree. Appending "root/Sample Store Chain 0/Sample Store 1;store1" to the file allows one to find Sample Store 1 by the alias store1. This is done by hitting the spacebar, writing store1 and pressing enter.
 
-
+![Alt text](screenshots/readme_img_1.png?raw=true "Screenshot")
+![Alt text](screenshots/readme_img_2.png?raw=true "Screenshot")
 
 
