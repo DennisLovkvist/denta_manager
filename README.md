@@ -15,6 +15,7 @@ Me and some of my colleagues wanted something faster and more lightweight that c
 * Visual changes on how the tree is drawn.
 * Ability to change key-mappings.
 * Fix "rendering" when window is resized.
+* Better password storage
 
 ## Installation
 ### Build
